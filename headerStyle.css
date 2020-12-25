@@ -1,0 +1,290 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body
+{
+	font-family: 'Source Sans Pro',sans-serif ;
+}
+
+/* Css - Navigation Bar*/
+nav
+{
+	display:flex ;
+	flex-wrap: wrap ;
+	margin: 0% 0% 1% 0% ;
+}
+label
+{
+	width:  75px ;
+	height: 45px ;
+	margin: 0.5% 3% 0.5% 3% ;
+}
+.logo
+{
+	max-width: 100% ;
+	max-height: 100% ;
+}
+.header
+{
+	width:85% ;
+	display: flex ;
+	flex-wrap: wrap ;
+}
+.header > div
+{
+	margin: 2% 1% 0% 1% ;
+}
+.header > div > a
+{
+	color : black ;
+	font-weight: 600 ;
+} 
+.menu
+{
+	display: none ;
+}
+@media screen and (min-width: 768px) and (max-width:1024px)
+{
+	.header > div 
+	{
+		margin: 2% 1% 1% 1% ;
+	}
+}
+
+/* Css - Banner Image */
+
+.bannerContainer
+{
+	width : 100% ;
+	height: 350px ;
+	overflow: hidden ;
+}
+.bannerImg
+{
+	max-width : 100% ;
+	height: 350px ;
+}
+
+
+/* Css - Container Spotlight */
+.container
+{
+	margin: 5% 10% 0 10% ;
+}
+.title
+{
+	letter-spacing: 1px ;
+}
+.content
+{
+	margin-top: 1%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card
+{
+	flex: 1 1 30%;
+	height:180px ;
+	width:33% ;
+	position: relative ;
+	background-color: #F0F0F0;
+	margin-bottom: 1% ;
+}
+.cardAlign
+{
+	margin:0% 1% 0% 1% ;
+}
+.catalog
+{
+	width:50% ;
+	height : 180px ;
+	position:absolute;
+	top:0 ;
+	left:0;
+}
+.catimage
+{
+	width: 100% ;
+	height:100% ;
+}
+.discount
+{
+	width:51% ;
+	height:56% ;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 9 ;
+	margin: 10% 0% 10% 43% ;
+	background-color: #e6d8ce; 
+	padding:3% ;
+}
+.nikedisc
+{
+	background-color: #c9ebed;
+}
+.hereandnowdisc
+{
+	background-color: #c9beb3;
+}
+.pumadisc
+{
+	background-color: #e0b988 ;
+}
+.allensoly
+{
+	background-color: #b0c199 ;
+}
+.magic
+{
+	background-color: #e5b9be ;
+}
+.brandLogo
+{
+	height:30px;
+	width:100px;
+}
+.discountRate
+{
+	font-weight: 600;
+	margin-top: 2% ;
+}
+.description
+{
+	font-size: 12px ;
+	font-weight: 600 ;
+	letter-spacing: 1px ;
+	margin-top: 2% ;
+}
+.showmoreBtn
+{
+	position: absolute ;
+	bottom: 2px ;
+	right:  16px ;
+	float: right ;
+	color: black ;
+	font-size: 13px ;
+	font-weight: 600 ;
+	margin-bottom: 0% ;
+	padding: 2% ;
+	cursor: pointer ;
+}
+.showmoreBtn:hover
+{
+	background-color: rgba(255,255,255,0.5) ;
+	/*opacity:0.5%;*/
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px)
+{
+	.container
+	{
+		margin: 5% 2% 0% 2% ;
+	}
+	.card , .catalog
+	{
+		height: 210px ; 
+	}
+	.card
+	{
+		flex : 1 1 33% ;
+	}
+	.header
+	{
+		display: none ;
+	}
+	.menubtn
+	{
+		flex-grow : 1 ;
+	}
+	.menu
+	{
+		color:black ;
+		background-color: white ; 
+		display: block ;
+		float : right ;
+		font-size: 18px ;
+		font-weight: 600;
+		letter-spacing: 1px ;
+		margin : 1% 4% 1% 4% ;
+		padding: 1% ; 
+		cursor : pointer ;
+		border : none ;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width:767px)
+{
+	.container
+	{
+		margin:5% 2% 0% 2% ;
+	}
+	.card
+	{
+		height: 250px;
+		flex: 1 1 50% ;
+		margin: 4% 1% 0% 1%;
+	}
+	.catalog
+	{
+		height: 250px ;
+	}
+	.header
+	{
+		display: none ;
+	}
+	.discount
+	{
+		margin: 7% 0% 5% 43% ;
+	}
+	.menubtn
+	{
+		flex-grow : 1 ;
+	}
+	.menu
+	{
+		color:black ;
+		background-color: white ; 
+		display: block ;
+		float : right ;
+		font-size: 18px ;
+		font-weight: 600;
+		letter-spacing: 1px ;
+		margin : 1% 4% 1% 4% ;
+		padding: 1% ; 
+		cursor : pointer ;
+		border : none ;
+	}
+
+}
+
+@media only screen and (min-width: 315px) and (max-width:479px)
+{
+	.card
+	{
+		flex  : 1 1 50% ;
+		margin: 4% 5% 0% 5% ;
+	}
+	.cardAlign
+	{
+		margin : 0% ;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
