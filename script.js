@@ -6,3 +6,7 @@ function showMenu() {
 }
 
 console.log("from branch a");
+console.log("from branch A");
+
+console.log("from branch 1");
+console.log("from branch 1");
